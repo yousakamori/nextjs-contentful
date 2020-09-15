@@ -34,7 +34,7 @@ function HomePage() {
           type="text/css"
         />
       </Head>
-      { posts.length > 0 
+      { posts.length > 0
         ? posts.map(p => (
             <Post
               key={p.sys.id}

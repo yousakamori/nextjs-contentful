@@ -4,6 +4,7 @@ function Post({ image, title, body, slug }) {
   return (
     <div className="container">
       <h1>contentful test</h1>
+      <p>created by you nakamura</p>
       <a href={image.fields.file.url}>
         <img alt={image.fields.title} src={image.fields.file.url} />
       </a>
