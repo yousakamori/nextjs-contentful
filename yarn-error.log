@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/you/.nodenv/versions/12.16.0/bin/node /Users/you/.nodenv/versions/12.16.0/bin/yarn init
+
+PATH: 
+  /Users/you/.nodenv/versions/12.16.0/bin:/usr/local/Cellar/nodenv/1.4.0/libexec:/Users/you/.nodenv/shims:/Users/you/.nodenv/bin:/Users/you/.rbenv/shims:/Users/you/.rbenv/bin:/Users/you/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/you/.nodenv/versions/12.16.0/lib/node_modules/yarn/lib/cli.js:136987:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:294:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
