@@ -3,6 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 function Post({ image, title, body, slug }) {
   return (
     <div className="container">
+      <h1>contentful test</h1>
       <a href={image.fields.file.url}>
         <img alt={image.fields.title} src={image.fields.file.url} />
       </a>
